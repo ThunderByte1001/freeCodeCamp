@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="dd.css">
+</head>
+<body>
+  <h1 id="title">How can the soccer improve their entertainment value?</h1>
+  <p id="description">Thank you for taking the time to help the soccer improve</p>
+  <form id="survey-form">
+    <div class="input-element">
+    <label id="name-label">
+    What's your name? <input id="name" type="text" required placeholder="name"/></label></div>
+    <div class="input-element">
+    <label id="email-label">Your email please: <input id="email" type="email" required placeholder="email"/></label></div>
+    <div class="input-element">
+    <label id="number-label">Tell us your age(optional) <input id="number" type="number" min="3" max="120" placeholder="age"/></label></div>
+    <div class="input-element"><label id="select-label">What's your favourite Portuguese team?</label>
+    <select id="dropdown" name="dropdown">
+      <option value="">Select an option</option>
+      <option value="1">
+        Benfica
+        </option value="2">
+      <option value="3">
+        Sporting
+      </option>
+      <option>
+        Porto
+      </option>
+    </select>
+    </div>
+    <label>Have you been in a game before?</label><div><input id="yes" name="game" type="radio" value="y"/> Yes </div><div><input id="no" name="game" type="radio" value="n"/> No
+    </div>
+    <label>Who's your favourite player off all time?</label><div><label>Cristiano Ronaldo<input id="ronaldo" type="checkbox" name="player" value="cris" /></label></div>
+<div><label>Lionel Messi<input id="messi" type="checkbox" name="player" value="mess" /></label></div>
+<div><label>Neymar Junior<input id="neymar" type="checkbox" name="player" value="ney" /></label></div>
+<div>
+  <label>Additional comments</label>
+  <textarea type="text"></textarea>
+</div>
+<button id="submit" type="submit">Submit
+</button>
+  </form>
+</body>
+</html>
