@@ -1,0 +1,107 @@
+/* Estilização básica */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.input-element {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+select {
+  height: 40px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+  
+}
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Estilização específica */
+#title {
+  color: #333;
+}
+
+#description {
+  color: #777;
+}
+
+#survey-form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#name-label,
+#email-label,
+#number-label,
+#select-label {
+  font-weight: normal;
+}
+
+#yes,
+#no,
+#ronaldo,
+#messi,
+#neymar {
+  vertical-align: middle;
+}
+
+#ronaldo,
+#messi,
+#neymar {
+  margin-left: 5px;
+}
+
+#submit {
+  background-color: #008CBA;
+}
+
+#submit:hover {
+  background-color: #0077a3;
+}
